@@ -1,0 +1,9 @@
+# jonwatch
+Watch files for changes. It will use the fs watch on the directory where the file is stored and use stat polling on the file when something is changed in the directory. Only files that are being watch will be polled.
+
+## Example
+```javascript
+var watch = require('jonwatch');
+watch('./a', (file) => {
+	console.log('A changed.');
+});

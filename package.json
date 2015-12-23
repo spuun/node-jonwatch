@@ -1,0 +1,15 @@
+{
+	"name": "jonwatch",
+	"description": "Watch files for changes.",
+	"author": "Jon Börjesson <jon@spuun.se>",
+	"version": "0.0.1",
+	"engines": {
+		"node": "^5.0.0"
+	},
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
